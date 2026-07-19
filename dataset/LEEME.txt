@@ -1,0 +1,12 @@
+LOs archivos que procesan la ia y el camino más corto para este proyecto 
+son los llamados ia.py y grafica_resultados.py
+
+Los archivos generados por estos son:
+ - predicciones.csv
+ - Smartwaste_modelo.keras
+ - tiempos_recoleccion.png
+ - mapa_rutas.html
+Los otros archivos fueron para obtener y organizar los dataset 
+para los contenedores y las zonas de la ciudad, Y los archivos para que la ia pueda entrenar 
+
+

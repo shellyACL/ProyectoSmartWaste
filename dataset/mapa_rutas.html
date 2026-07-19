@@ -1,0 +1,2312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b317f88571b8dd17493917ef8dd323b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6b317f88571b8dd17493917ef8dd323b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6b317f88571b8dd17493917ef8dd323b = L.map(
+                "map_6b317f88571b8dd17493917ef8dd323b",
+                {
+                    center: [-16.535331, -68.07435],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_636e41f0ff9178eaa1222f28d69c18d3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_636e41f0ff9178eaa1222f28d69c18d3.addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var marker_13dd374f3bab23887650bb3ed80a5715 = L.marker(
+                [-16.535331, -68.07435],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_b090120eebe38c16e858e5dc79d4807a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b2bae782e024316e01bdd9734548419 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f83684300f29b71708102e5e0c05ddd5 = $(`<div id="html_f83684300f29b71708102e5e0c05ddd5" style="width: 100.0%; height: 100.0%;">Garaje Achumani</div>`)[0];
+                popup_5b2bae782e024316e01bdd9734548419.setContent(html_f83684300f29b71708102e5e0c05ddd5);
+            
+        
+
+        marker_13dd374f3bab23887650bb3ed80a5715.bindPopup(popup_5b2bae782e024316e01bdd9734548419)
+        ;
+
+        
+    
+    
+                marker_13dd374f3bab23887650bb3ed80a5715.setIcon(icon_b090120eebe38c16e858e5dc79d4807a);
+            
+    
+            var marker_f02c3f19dcb029d3bf2f8c45bc390385 = L.marker(
+                [-16.555393, -68.131637],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_2888d37166c09080e613b577ff9c3572 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5971520b7e79121172507831832b74cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09cd3cd8fb98e6a22d10898ebe171302 = $(`<div id="html_09cd3cd8fb98e6a22d10898ebe171302" style="width: 100.0%; height: 100.0%;">Relleno Saka Churu</div>`)[0];
+                popup_5971520b7e79121172507831832b74cb.setContent(html_09cd3cd8fb98e6a22d10898ebe171302);
+            
+        
+
+        marker_f02c3f19dcb029d3bf2f8c45bc390385.bindPopup(popup_5971520b7e79121172507831832b74cb)
+        ;
+
+        
+    
+    
+                marker_f02c3f19dcb029d3bf2f8c45bc390385.setIcon(icon_2888d37166c09080e613b577ff9c3572);
+            
+    
+            var marker_701192d8ff4a8a595cebdc862a9161b8 = L.marker(
+                [-16.47832923543412, -68.12068611218315],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_377d1865a4c1aab6dbcbc27b74497adb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e251389ab2843c7d9b2349d16eb7d7a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_270d87c3e265667fd3c65b7c498bbc44 = $(`<div id="html_270d87c3e265667fd3c65b7c498bbc44" style="width: 100.0%; height: 100.0%;">VILLA FATIMA<br>Predicción: 93.686005<br>Contenedores: 12<br>Camiones: 2</div>`)[0];
+                popup_e251389ab2843c7d9b2349d16eb7d7a9.setContent(html_270d87c3e265667fd3c65b7c498bbc44);
+            
+        
+
+        marker_701192d8ff4a8a595cebdc862a9161b8.bindPopup(popup_e251389ab2843c7d9b2349d16eb7d7a9)
+        ;
+
+        
+    
+    
+                marker_701192d8ff4a8a595cebdc862a9161b8.setIcon(icon_377d1865a4c1aab6dbcbc27b74497adb);
+            
+    
+            var poly_line_49111229c7871547cca64d785520e807 = L.polyline(
+                [[-16.535331, -68.07435], [-16.47832923543412, -68.12068611218315], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_5f021a080f1968234c59be062cf5af14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4804f2a3475aa812948a5164d4907cb0 = $(`<div id="html_4804f2a3475aa812948a5164d4907cb0" style="width: 100.0%; height: 100.0%;">Ruta VILLA FATIMA</div>`)[0];
+                popup_5f021a080f1968234c59be062cf5af14.setContent(html_4804f2a3475aa812948a5164d4907cb0);
+            
+        
+
+        poly_line_49111229c7871547cca64d785520e807.bindPopup(popup_5f021a080f1968234c59be062cf5af14)
+        ;
+
+        
+    
+    
+            var marker_4cd4dcd88c4c2ad2a34c308ebf094972 = L.marker(
+                [-16.5145466634413, -68.0604494592152],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_c69a1c43b6497db7d796ec56f0c190e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e8328b49f8c41170d57699925612c89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cee14617c6b3a0e593103c3625f3c44 = $(`<div id="html_1cee14617c6b3a0e593103c3625f3c44" style="width: 100.0%; height: 100.0%;">LA BARQUETA JARDIN<br>Predicción: 92.61153<br>Contenedores: 26<br>Camiones: 3</div>`)[0];
+                popup_4e8328b49f8c41170d57699925612c89.setContent(html_1cee14617c6b3a0e593103c3625f3c44);
+            
+        
+
+        marker_4cd4dcd88c4c2ad2a34c308ebf094972.bindPopup(popup_4e8328b49f8c41170d57699925612c89)
+        ;
+
+        
+    
+    
+                marker_4cd4dcd88c4c2ad2a34c308ebf094972.setIcon(icon_c69a1c43b6497db7d796ec56f0c190e4);
+            
+    
+            var poly_line_99ff4906912b0bd912b62e4af9e58354 = L.polyline(
+                [[-16.535331, -68.07435], [-16.5145466634413, -68.0604494592152], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_c683d2191709e609c2c1370f26893044 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9564b6687022394f1a3396987d96eb78 = $(`<div id="html_9564b6687022394f1a3396987d96eb78" style="width: 100.0%; height: 100.0%;">Ruta LA BARQUETA JARDIN</div>`)[0];
+                popup_c683d2191709e609c2c1370f26893044.setContent(html_9564b6687022394f1a3396987d96eb78);
+            
+        
+
+        poly_line_99ff4906912b0bd912b62e4af9e58354.bindPopup(popup_c683d2191709e609c2c1370f26893044)
+        ;
+
+        
+    
+    
+            var marker_8ca1b0c436ab3262a57881d7a861f151 = L.marker(
+                [-16.495035073588753, -68.12889652004037],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_c6f6849cbf7ba7fd25fb0e35fdb53fe2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81edd12cf1b09e9bb11a0a6558638195 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d1d9eb9a8f89e216f7420974ef22ef9 = $(`<div id="html_1d1d9eb9a8f89e216f7420974ef22ef9" style="width: 100.0%; height: 100.0%;">AGUA DE LA VIDA<br>Predicción: 92.26865<br>Contenedores: 2<br>Camiones: 1</div>`)[0];
+                popup_81edd12cf1b09e9bb11a0a6558638195.setContent(html_1d1d9eb9a8f89e216f7420974ef22ef9);
+            
+        
+
+        marker_8ca1b0c436ab3262a57881d7a861f151.bindPopup(popup_81edd12cf1b09e9bb11a0a6558638195)
+        ;
+
+        
+    
+    
+                marker_8ca1b0c436ab3262a57881d7a861f151.setIcon(icon_c6f6849cbf7ba7fd25fb0e35fdb53fe2);
+            
+    
+            var poly_line_d3088619cccbf1c320630734e3322438 = L.polyline(
+                [[-16.535331, -68.07435], [-16.495035073588753, -68.12889652004037], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_dd1d868d5b3a8da4073cc17fe254b305 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a44f6bc98088c03c20794494d2686b = $(`<div id="html_29a44f6bc98088c03c20794494d2686b" style="width: 100.0%; height: 100.0%;">Ruta AGUA DE LA VIDA</div>`)[0];
+                popup_dd1d868d5b3a8da4073cc17fe254b305.setContent(html_29a44f6bc98088c03c20794494d2686b);
+            
+        
+
+        poly_line_d3088619cccbf1c320630734e3322438.bindPopup(popup_dd1d868d5b3a8da4073cc17fe254b305)
+        ;
+
+        
+    
+    
+            var marker_d98de6a66651b16031ff9c56d522454d = L.marker(
+                [-16.50725608314016, -68.13996349484609],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_7fb04da82e58487b493ad93b92b5a079 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f73a5722beb6833952478f9b6aec12d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7bd10eab35b84ffb3cb8ec85a28e059 = $(`<div id="html_a7bd10eab35b84ffb3cb8ec85a28e059" style="width: 100.0%; height: 100.0%;">ALTO SAN PEDRO<br>Predicción: 92.234856<br>Contenedores: 27<br>Camiones: 3</div>`)[0];
+                popup_f73a5722beb6833952478f9b6aec12d9.setContent(html_a7bd10eab35b84ffb3cb8ec85a28e059);
+            
+        
+
+        marker_d98de6a66651b16031ff9c56d522454d.bindPopup(popup_f73a5722beb6833952478f9b6aec12d9)
+        ;
+
+        
+    
+    
+                marker_d98de6a66651b16031ff9c56d522454d.setIcon(icon_7fb04da82e58487b493ad93b92b5a079);
+            
+    
+            var poly_line_5452dec12a0c39fd15714fcf66ca51ba = L.polyline(
+                [[-16.535331, -68.07435], [-16.50725608314016, -68.13996349484609], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_b6e1f2261e8c4a2b9b82cfdc6f0459b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64a053a5c7806bca22f119fd46595e79 = $(`<div id="html_64a053a5c7806bca22f119fd46595e79" style="width: 100.0%; height: 100.0%;">Ruta ALTO SAN PEDRO</div>`)[0];
+                popup_b6e1f2261e8c4a2b9b82cfdc6f0459b9.setContent(html_64a053a5c7806bca22f119fd46595e79);
+            
+        
+
+        poly_line_5452dec12a0c39fd15714fcf66ca51ba.bindPopup(popup_b6e1f2261e8c4a2b9b82cfdc6f0459b9)
+        ;
+
+        
+    
+    
+            var marker_8b72a4d8ef7d3a208f22afd1f3023c0f = L.marker(
+                [-16.478026638778687, -68.11740857459638],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_7ecff97f0d8f14ecf864412301906e5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e98c11ffa721df54a5c44b5d82d29a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_521b157f38c3226b57f6c339de75b5d8 = $(`<div id="html_521b157f38c3226b57f6c339de75b5d8" style="width: 100.0%; height: 100.0%;">BARRIO PETROLERO<br>Predicción: 91.524086<br>Contenedores: 21<br>Camiones: 2</div>`)[0];
+                popup_1e98c11ffa721df54a5c44b5d82d29a6.setContent(html_521b157f38c3226b57f6c339de75b5d8);
+            
+        
+
+        marker_8b72a4d8ef7d3a208f22afd1f3023c0f.bindPopup(popup_1e98c11ffa721df54a5c44b5d82d29a6)
+        ;
+
+        
+    
+    
+                marker_8b72a4d8ef7d3a208f22afd1f3023c0f.setIcon(icon_7ecff97f0d8f14ecf864412301906e5f);
+            
+    
+            var poly_line_a5ac17a17b9e99090f674115557d99a9 = L.polyline(
+                [[-16.535331, -68.07435], [-16.478026638778687, -68.11740857459638], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_395dbd636c05de36b0c0510302c24186 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b64b84e3da62a10d6e1f61f6b31b47a5 = $(`<div id="html_b64b84e3da62a10d6e1f61f6b31b47a5" style="width: 100.0%; height: 100.0%;">Ruta BARRIO PETROLERO</div>`)[0];
+                popup_395dbd636c05de36b0c0510302c24186.setContent(html_b64b84e3da62a10d6e1f61f6b31b47a5);
+            
+        
+
+        poly_line_a5ac17a17b9e99090f674115557d99a9.bindPopup(popup_395dbd636c05de36b0c0510302c24186)
+        ;
+
+        
+    
+    
+            var marker_abfaf87a060cb28805f444ecc8de6b45 = L.marker(
+                [-16.512964785825254, -68.12870677979815],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_aa30d73221058eabb09afefa71e8860e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b70d29cc83fb92dfa1f39b92b507c82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_505d1553198b064207de77441267e984 = $(`<div id="html_505d1553198b064207de77441267e984" style="width: 100.0%; height: 100.0%;">SOPOCACHI<br>Predicción: 90.44888<br>Contenedores: 29<br>Camiones: 3</div>`)[0];
+                popup_3b70d29cc83fb92dfa1f39b92b507c82.setContent(html_505d1553198b064207de77441267e984);
+            
+        
+
+        marker_abfaf87a060cb28805f444ecc8de6b45.bindPopup(popup_3b70d29cc83fb92dfa1f39b92b507c82)
+        ;
+
+        
+    
+    
+                marker_abfaf87a060cb28805f444ecc8de6b45.setIcon(icon_aa30d73221058eabb09afefa71e8860e);
+            
+    
+            var poly_line_1dea06c5b1e7226562fc32129a905457 = L.polyline(
+                [[-16.535331, -68.07435], [-16.512964785825254, -68.12870677979815], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_986481c6ab6ed47841646b2008ed3970 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bc692d82eee45cbd780e48173dd7e08 = $(`<div id="html_4bc692d82eee45cbd780e48173dd7e08" style="width: 100.0%; height: 100.0%;">Ruta SOPOCACHI</div>`)[0];
+                popup_986481c6ab6ed47841646b2008ed3970.setContent(html_4bc692d82eee45cbd780e48173dd7e08);
+            
+        
+
+        poly_line_1dea06c5b1e7226562fc32129a905457.bindPopup(popup_986481c6ab6ed47841646b2008ed3970)
+        ;
+
+        
+    
+    
+            var marker_118ea3f977152c821864374daa8f6459 = L.marker(
+                [-16.501361283701286, -68.08210162368644],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_b2edce82cc511dd96f518dde14a34f77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcbe9df34a4d5d339f51ec111addf055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3282eceb53b9cdac1120060fbbb0ee56 = $(`<div id="html_3282eceb53b9cdac1120060fbbb0ee56" style="width: 100.0%; height: 100.0%;">IRPAVI II<br>Predicción: 90.17624<br>Contenedores: 18<br>Camiones: 2</div>`)[0];
+                popup_dcbe9df34a4d5d339f51ec111addf055.setContent(html_3282eceb53b9cdac1120060fbbb0ee56);
+            
+        
+
+        marker_118ea3f977152c821864374daa8f6459.bindPopup(popup_dcbe9df34a4d5d339f51ec111addf055)
+        ;
+
+        
+    
+    
+                marker_118ea3f977152c821864374daa8f6459.setIcon(icon_b2edce82cc511dd96f518dde14a34f77);
+            
+    
+            var poly_line_b76209ba981b13610ef8f21d5bcd82f6 = L.polyline(
+                [[-16.535331, -68.07435], [-16.501361283701286, -68.08210162368644], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_63ef453c6601034123b1f8ae6e3489bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c66444cceb8097de2c60a9368dcfa55 = $(`<div id="html_1c66444cceb8097de2c60a9368dcfa55" style="width: 100.0%; height: 100.0%;">Ruta IRPAVI II</div>`)[0];
+                popup_63ef453c6601034123b1f8ae6e3489bc.setContent(html_1c66444cceb8097de2c60a9368dcfa55);
+            
+        
+
+        poly_line_b76209ba981b13610ef8f21d5bcd82f6.bindPopup(popup_63ef453c6601034123b1f8ae6e3489bc)
+        ;
+
+        
+    
+    
+            var marker_6783bc5ee06f065b73691dcff47a89af = L.marker(
+                [-16.518027523786568, -68.13161404382609],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_782935b4703b441f2443f6daa2511817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3ec4f8864e4c698d37413b744803fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d1d08b23753ef7cc9b16d35f49a7e2e = $(`<div id="html_2d1d08b23753ef7cc9b16d35f49a7e2e" style="width: 100.0%; height: 100.0%;">8 DE DICIEMBRE<br>Predicción: 89.24807<br>Contenedores: 14<br>Camiones: 2</div>`)[0];
+                popup_a3ec4f8864e4c698d37413b744803fd7.setContent(html_2d1d08b23753ef7cc9b16d35f49a7e2e);
+            
+        
+
+        marker_6783bc5ee06f065b73691dcff47a89af.bindPopup(popup_a3ec4f8864e4c698d37413b744803fd7)
+        ;
+
+        
+    
+    
+                marker_6783bc5ee06f065b73691dcff47a89af.setIcon(icon_782935b4703b441f2443f6daa2511817);
+            
+    
+            var poly_line_b477d97066c36543fba2b7baa48a88c2 = L.polyline(
+                [[-16.535331, -68.07435], [-16.518027523786568, -68.13161404382609], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "beige", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_a4c4c526012ecd57643007c05ee5dfa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7e53abd13cc7fc9f40e0bb19b4b0abf = $(`<div id="html_e7e53abd13cc7fc9f40e0bb19b4b0abf" style="width: 100.0%; height: 100.0%;">Ruta 8 DE DICIEMBRE</div>`)[0];
+                popup_a4c4c526012ecd57643007c05ee5dfa1.setContent(html_e7e53abd13cc7fc9f40e0bb19b4b0abf);
+            
+        
+
+        poly_line_b477d97066c36543fba2b7baa48a88c2.bindPopup(popup_a4c4c526012ecd57643007c05ee5dfa1)
+        ;
+
+        
+    
+    
+            var marker_1ae893a5b92a2705ac455425fd460eaa = L.marker(
+                [-16.568773894462755, -68.08792246725511],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_270f98057e70a060d9411468034bab4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7eae75d1ce181334610aa03f75f156f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91316b234e446fa77a4315498ccdbcb6 = $(`<div id="html_91316b234e446fa77a4315498ccdbcb6" style="width: 100.0%; height: 100.0%;">MALLASA<br>Predicción: 88.076416<br>Contenedores: 13<br>Camiones: 2</div>`)[0];
+                popup_7eae75d1ce181334610aa03f75f156f9.setContent(html_91316b234e446fa77a4315498ccdbcb6);
+            
+        
+
+        marker_1ae893a5b92a2705ac455425fd460eaa.bindPopup(popup_7eae75d1ce181334610aa03f75f156f9)
+        ;
+
+        
+    
+    
+                marker_1ae893a5b92a2705ac455425fd460eaa.setIcon(icon_270f98057e70a060d9411468034bab4c);
+            
+    
+            var poly_line_30f0c5af158aebd9615f1e85f0457b0d = L.polyline(
+                [[-16.535331, -68.07435], [-16.568773894462755, -68.08792246725511], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_29cc8008890cabfecec16146ceefe8be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55f8f93e021abc0619fb1f6d040e3efc = $(`<div id="html_55f8f93e021abc0619fb1f6d040e3efc" style="width: 100.0%; height: 100.0%;">Ruta MALLASA</div>`)[0];
+                popup_29cc8008890cabfecec16146ceefe8be.setContent(html_55f8f93e021abc0619fb1f6d040e3efc);
+            
+        
+
+        poly_line_30f0c5af158aebd9615f1e85f0457b0d.bindPopup(popup_29cc8008890cabfecec16146ceefe8be)
+        ;
+
+        
+    
+    
+            var marker_ba8d7d113cd706402d30932d35d07aec = L.marker(
+                [-16.49864993337138, -68.12749401987693],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_360204c837764f06c872c0f56c169862 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55569fbb4ef0fe0df5cc96d88028a5f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1beab09990ac8db1a8316984a7a456d8 = $(`<div id="html_1beab09990ac8db1a8316984a7a456d8" style="width: 100.0%; height: 100.0%;">SANTA BARBARA<br>Predicción: 87.79216<br>Contenedores: 7<br>Camiones: 1</div>`)[0];
+                popup_55569fbb4ef0fe0df5cc96d88028a5f0.setContent(html_1beab09990ac8db1a8316984a7a456d8);
+            
+        
+
+        marker_ba8d7d113cd706402d30932d35d07aec.bindPopup(popup_55569fbb4ef0fe0df5cc96d88028a5f0)
+        ;
+
+        
+    
+    
+                marker_ba8d7d113cd706402d30932d35d07aec.setIcon(icon_360204c837764f06c872c0f56c169862);
+            
+    
+            var poly_line_89b6cddc017ae4357f68c29c7b7ecd8a = L.polyline(
+                [[-16.535331, -68.07435], [-16.49864993337138, -68.12749401987693], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_6be53e971caadde9fadf86e8d448ad79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81ad731e8069d9404ef22ca9c4037a4a = $(`<div id="html_81ad731e8069d9404ef22ca9c4037a4a" style="width: 100.0%; height: 100.0%;">Ruta SANTA BARBARA</div>`)[0];
+                popup_6be53e971caadde9fadf86e8d448ad79.setContent(html_81ad731e8069d9404ef22ca9c4037a4a);
+            
+        
+
+        poly_line_89b6cddc017ae4357f68c29c7b7ecd8a.bindPopup(popup_6be53e971caadde9fadf86e8d448ad79)
+        ;
+
+        
+    
+    
+            var marker_449178e873730a89c5a0a13d9f0d95a5 = L.marker(
+                [-16.493245964495493, -68.10469809180773],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_77569fe58dd88f3d6346fcf3295e8603 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0f5ccd2a605163c8b462f9308b2699d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5e69b5bd6a33d907745800801bff08e = $(`<div id="html_d5e69b5bd6a33d907745800801bff08e" style="width: 100.0%; height: 100.0%;">PAMPAHASI ALTO<br>Predicción: 86.760445<br>Contenedores: 31<br>Camiones: 3</div>`)[0];
+                popup_f0f5ccd2a605163c8b462f9308b2699d.setContent(html_d5e69b5bd6a33d907745800801bff08e);
+            
+        
+
+        marker_449178e873730a89c5a0a13d9f0d95a5.bindPopup(popup_f0f5ccd2a605163c8b462f9308b2699d)
+        ;
+
+        
+    
+    
+                marker_449178e873730a89c5a0a13d9f0d95a5.setIcon(icon_77569fe58dd88f3d6346fcf3295e8603);
+            
+    
+            var poly_line_9b550f575a65ef696b9b4b0035882f1b = L.polyline(
+                [[-16.535331, -68.07435], [-16.493245964495493, -68.10469809180773], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_f7003881ba978aa5330dade65d6c3699 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cf484540b16a8b768c10719e6761d84 = $(`<div id="html_3cf484540b16a8b768c10719e6761d84" style="width: 100.0%; height: 100.0%;">Ruta PAMPAHASI ALTO</div>`)[0];
+                popup_f7003881ba978aa5330dade65d6c3699.setContent(html_3cf484540b16a8b768c10719e6761d84);
+            
+        
+
+        poly_line_9b550f575a65ef696b9b4b0035882f1b.bindPopup(popup_f7003881ba978aa5330dade65d6c3699)
+        ;
+
+        
+    
+    
+            var marker_e51f3f8418d92e675cb554f1406b2cd0 = L.marker(
+                [-16.493188184144113, -68.1613486426575],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_4a261174e45ba9abb87c186e39306d9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5eaeed124a7ec7c61f8144e369a3529e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0862cbc2e0b42d23f092aaf9bc94b51a = $(`<div id="html_0862cbc2e0b42d23f092aaf9bc94b51a" style="width: 100.0%; height: 100.0%;">MARISCAL SANTA CRUZ<br>Predicción: 85.798035<br>Contenedores: 3<br>Camiones: 1</div>`)[0];
+                popup_5eaeed124a7ec7c61f8144e369a3529e.setContent(html_0862cbc2e0b42d23f092aaf9bc94b51a);
+            
+        
+
+        marker_e51f3f8418d92e675cb554f1406b2cd0.bindPopup(popup_5eaeed124a7ec7c61f8144e369a3529e)
+        ;
+
+        
+    
+    
+                marker_e51f3f8418d92e675cb554f1406b2cd0.setIcon(icon_4a261174e45ba9abb87c186e39306d9e);
+            
+    
+            var poly_line_9b083feef7506f3f7f74555404266ee6 = L.polyline(
+                [[-16.535331, -68.07435], [-16.493188184144113, -68.1613486426575], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_ea0abe0fec03e6309b99cfa5c82eee7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f3d2a7b467597eb4b972d586ed13b0c = $(`<div id="html_8f3d2a7b467597eb4b972d586ed13b0c" style="width: 100.0%; height: 100.0%;">Ruta MARISCAL SANTA CRUZ</div>`)[0];
+                popup_ea0abe0fec03e6309b99cfa5c82eee7f.setContent(html_8f3d2a7b467597eb4b972d586ed13b0c);
+            
+        
+
+        poly_line_9b083feef7506f3f7f74555404266ee6.bindPopup(popup_ea0abe0fec03e6309b99cfa5c82eee7f)
+        ;
+
+        
+    
+    
+            var marker_df9222a313089f6f530eb3720bbd1b11 = L.marker(
+                [-16.534833643395444, -68.10214386959946],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_401de081b41ce33e00bfa6d8e2f8ad81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7322c5843136b5a01f53a6524fd98c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_202dc2bbd930c071fbce3c6d1068b62e = $(`<div id="html_202dc2bbd930c071fbce3c6d1068b62e" style="width: 100.0%; height: 100.0%;">ALTO SEGUENCOMA<br>Predicción: 84.9185<br>Contenedores: 15<br>Camiones: 2</div>`)[0];
+                popup_a7322c5843136b5a01f53a6524fd98c4.setContent(html_202dc2bbd930c071fbce3c6d1068b62e);
+            
+        
+
+        marker_df9222a313089f6f530eb3720bbd1b11.bindPopup(popup_a7322c5843136b5a01f53a6524fd98c4)
+        ;
+
+        
+    
+    
+                marker_df9222a313089f6f530eb3720bbd1b11.setIcon(icon_401de081b41ce33e00bfa6d8e2f8ad81);
+            
+    
+            var poly_line_b532fe36f9a03e8a404d92fc13cfd944 = L.polyline(
+                [[-16.535331, -68.07435], [-16.534833643395444, -68.10214386959946], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_d2c98bfcf1679d1bf358dc4794b106e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_129daa3e63c3bdb363e0d148a4d5d69b = $(`<div id="html_129daa3e63c3bdb363e0d148a4d5d69b" style="width: 100.0%; height: 100.0%;">Ruta ALTO SEGUENCOMA</div>`)[0];
+                popup_d2c98bfcf1679d1bf358dc4794b106e0.setContent(html_129daa3e63c3bdb363e0d148a4d5d69b);
+            
+        
+
+        poly_line_b532fe36f9a03e8a404d92fc13cfd944.bindPopup(popup_d2c98bfcf1679d1bf358dc4794b106e0)
+        ;
+
+        
+    
+    
+            var marker_281f0a680faf20047d512c78c959c869 = L.marker(
+                [-16.540979025459112, -68.07736692615087],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_a5bbaaaee349333934a003f50dda6c70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74345ac3aed079df386b1c1e07d76d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea8b6383a24358ba1fa24493037cc013 = $(`<div id="html_ea8b6383a24358ba1fa24493037cc013" style="width: 100.0%; height: 100.0%;">SAN MIGUEL<br>Predicción: 84.08169<br>Contenedores: 44<br>Camiones: 4</div>`)[0];
+                popup_74345ac3aed079df386b1c1e07d76d50.setContent(html_ea8b6383a24358ba1fa24493037cc013);
+            
+        
+
+        marker_281f0a680faf20047d512c78c959c869.bindPopup(popup_74345ac3aed079df386b1c1e07d76d50)
+        ;
+
+        
+    
+    
+                marker_281f0a680faf20047d512c78c959c869.setIcon(icon_a5bbaaaee349333934a003f50dda6c70);
+            
+    
+            var poly_line_5f02c57d7cbda9e30bed2b58f672fb3b = L.polyline(
+                [[-16.535331, -68.07435], [-16.540979025459112, -68.07736692615087], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_972c58e2428e4f47bf9827d5c3c50d23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be31f1d79678fd04833c5ae6bf9fbadf = $(`<div id="html_be31f1d79678fd04833c5ae6bf9fbadf" style="width: 100.0%; height: 100.0%;">Ruta SAN MIGUEL</div>`)[0];
+                popup_972c58e2428e4f47bf9827d5c3c50d23.setContent(html_be31f1d79678fd04833c5ae6bf9fbadf);
+            
+        
+
+        poly_line_5f02c57d7cbda9e30bed2b58f672fb3b.bindPopup(popup_972c58e2428e4f47bf9827d5c3c50d23)
+        ;
+
+        
+    
+    
+            var marker_44b168367383a93ed4e46e017193e8a3 = L.marker(
+                [-16.504838389808317, -68.1348638067849],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_5f37c9a134f00a58d100f8c371d64588 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b476b1455e26b683e86ae481dd2741d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ca1737c160d8e70bab2277fa25235e0 = $(`<div id="html_9ca1737c160d8e70bab2277fa25235e0" style="width: 100.0%; height: 100.0%;">SAN PEDRO<br>Predicción: 83.678246<br>Contenedores: 8<br>Camiones: 1</div>`)[0];
+                popup_7b476b1455e26b683e86ae481dd2741d.setContent(html_9ca1737c160d8e70bab2277fa25235e0);
+            
+        
+
+        marker_44b168367383a93ed4e46e017193e8a3.bindPopup(popup_7b476b1455e26b683e86ae481dd2741d)
+        ;
+
+        
+    
+    
+                marker_44b168367383a93ed4e46e017193e8a3.setIcon(icon_5f37c9a134f00a58d100f8c371d64588);
+            
+    
+            var poly_line_7022ef2f0c88670eb44179c34b03870b = L.polyline(
+                [[-16.535331, -68.07435], [-16.504838389808317, -68.1348638067849], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_2c39aeeb66eb06134774054ef9180496 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ff52d9858eaba00bb5dcf8624973c75 = $(`<div id="html_1ff52d9858eaba00bb5dcf8624973c75" style="width: 100.0%; height: 100.0%;">Ruta SAN PEDRO</div>`)[0];
+                popup_2c39aeeb66eb06134774054ef9180496.setContent(html_1ff52d9858eaba00bb5dcf8624973c75);
+            
+        
+
+        poly_line_7022ef2f0c88670eb44179c34b03870b.bindPopup(popup_2c39aeeb66eb06134774054ef9180496)
+        ;
+
+        
+    
+    
+            var marker_47b9ebcc087ac78f969142037fd92d22 = L.marker(
+                [-16.498690965994417, -68.15634806232592],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_0db0b76746d1d7266f32e9fabfc55ac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba339f4b29ccf62e66fcd1f3c21fac73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50c314b9edd621b19b918b15542305d0 = $(`<div id="html_50c314b9edd621b19b918b15542305d0" style="width: 100.0%; height: 100.0%;">ALTO TEJAR<br>Predicción: 83.5349<br>Contenedores: 15<br>Camiones: 2</div>`)[0];
+                popup_ba339f4b29ccf62e66fcd1f3c21fac73.setContent(html_50c314b9edd621b19b918b15542305d0);
+            
+        
+
+        marker_47b9ebcc087ac78f969142037fd92d22.bindPopup(popup_ba339f4b29ccf62e66fcd1f3c21fac73)
+        ;
+
+        
+    
+    
+                marker_47b9ebcc087ac78f969142037fd92d22.setIcon(icon_0db0b76746d1d7266f32e9fabfc55ac0);
+            
+    
+            var poly_line_44cbe13cdf70732ec6120f01f9901e2d = L.polyline(
+                [[-16.535331, -68.07435], [-16.498690965994417, -68.15634806232592], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_cf377a3ac1f3cc5d1ff4a7773d19e70a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58f2758e98e72744a9e64166dc89198c = $(`<div id="html_58f2758e98e72744a9e64166dc89198c" style="width: 100.0%; height: 100.0%;">Ruta ALTO TEJAR</div>`)[0];
+                popup_cf377a3ac1f3cc5d1ff4a7773d19e70a.setContent(html_58f2758e98e72744a9e64166dc89198c);
+            
+        
+
+        poly_line_44cbe13cdf70732ec6120f01f9901e2d.bindPopup(popup_cf377a3ac1f3cc5d1ff4a7773d19e70a)
+        ;
+
+        
+    
+    
+            var marker_b448e81bb7b3dbe6e96f1fdc7065ba25 = L.marker(
+                [-16.51613916970087, -68.14051391349506],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_4f5daaeee1a31d55023c072a7368891e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb64e88bf831ddf97d48f6c7f18b879c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20faf1a49b385410568663eb9280db12 = $(`<div id="html_20faf1a49b385410568663eb9280db12" style="width: 100.0%; height: 100.0%;">TEMBLADERANI<br>Predicción: 82.7735<br>Contenedores: 16<br>Camiones: 2</div>`)[0];
+                popup_bb64e88bf831ddf97d48f6c7f18b879c.setContent(html_20faf1a49b385410568663eb9280db12);
+            
+        
+
+        marker_b448e81bb7b3dbe6e96f1fdc7065ba25.bindPopup(popup_bb64e88bf831ddf97d48f6c7f18b879c)
+        ;
+
+        
+    
+    
+                marker_b448e81bb7b3dbe6e96f1fdc7065ba25.setIcon(icon_4f5daaeee1a31d55023c072a7368891e);
+            
+    
+            var poly_line_5849e7ad8ca0f2e549b5e7e71239e609 = L.polyline(
+                [[-16.535331, -68.07435], [-16.51613916970087, -68.14051391349506], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_77a5c03c0c8ff561b3b2ae13ea4bdff7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dc5aa75da10ab5f0fd1755e7f2e89ce = $(`<div id="html_1dc5aa75da10ab5f0fd1755e7f2e89ce" style="width: 100.0%; height: 100.0%;">Ruta TEMBLADERANI</div>`)[0];
+                popup_77a5c03c0c8ff561b3b2ae13ea4bdff7.setContent(html_1dc5aa75da10ab5f0fd1755e7f2e89ce);
+            
+        
+
+        poly_line_5849e7ad8ca0f2e549b5e7e71239e609.bindPopup(popup_77a5c03c0c8ff561b3b2ae13ea4bdff7)
+        ;
+
+        
+    
+    
+            var marker_20fbe220146a9d2cebd954943ee51f3a = L.marker(
+                [-16.565161713832964, -68.0999405177269],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_d51d79ed0fb79ee8ff44f8dca30337b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e26a1c595b5e699e2937af54350862fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44035eac54027f31fb377e9f2c92ff9d = $(`<div id="html_44035eac54027f31fb377e9f2c92ff9d" style="width: 100.0%; height: 100.0%;">MALLASILLA<br>Predicción: 81.2831<br>Contenedores: 18<br>Camiones: 2</div>`)[0];
+                popup_e26a1c595b5e699e2937af54350862fe.setContent(html_44035eac54027f31fb377e9f2c92ff9d);
+            
+        
+
+        marker_20fbe220146a9d2cebd954943ee51f3a.bindPopup(popup_e26a1c595b5e699e2937af54350862fe)
+        ;
+
+        
+    
+    
+                marker_20fbe220146a9d2cebd954943ee51f3a.setIcon(icon_d51d79ed0fb79ee8ff44f8dca30337b7);
+            
+    
+            var poly_line_cc460f9db59c7525f8fc1da2ded2c845 = L.polyline(
+                [[-16.535331, -68.07435], [-16.565161713832964, -68.0999405177269], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "beige", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_15fc8e0b48f25ce16afd0b01598bf147 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa4ab2687fe5cc693c864d2e0386f82c = $(`<div id="html_aa4ab2687fe5cc693c864d2e0386f82c" style="width: 100.0%; height: 100.0%;">Ruta MALLASILLA</div>`)[0];
+                popup_15fc8e0b48f25ce16afd0b01598bf147.setContent(html_aa4ab2687fe5cc693c864d2e0386f82c);
+            
+        
+
+        poly_line_cc460f9db59c7525f8fc1da2ded2c845.bindPopup(popup_15fc8e0b48f25ce16afd0b01598bf147)
+        ;
+
+        
+    
+    
+            var marker_8eacf0a1bbea4cbebc003c191935ad9e = L.marker(
+                [-16.52158645668128, -68.10697384398362],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_8dbbc15103dba4db4b80129b9e6c581c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f76d919b64e60602a62ee5b8c9dc9a42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b844a86ce35db2b530d3511e23eb67d5 = $(`<div id="html_b844a86ce35db2b530d3511e23eb67d5" style="width: 100.0%; height: 100.0%;">ALTO OBRAJES<br>Predicción: 80.79362<br>Contenedores: 28<br>Camiones: 3</div>`)[0];
+                popup_f76d919b64e60602a62ee5b8c9dc9a42.setContent(html_b844a86ce35db2b530d3511e23eb67d5);
+            
+        
+
+        marker_8eacf0a1bbea4cbebc003c191935ad9e.bindPopup(popup_f76d919b64e60602a62ee5b8c9dc9a42)
+        ;
+
+        
+    
+    
+                marker_8eacf0a1bbea4cbebc003c191935ad9e.setIcon(icon_8dbbc15103dba4db4b80129b9e6c581c);
+            
+    
+            var poly_line_78bb7b59ff7edb46c8ac8d19bfa0ac33 = L.polyline(
+                [[-16.535331, -68.07435], [-16.52158645668128, -68.10697384398362], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_1b32038dee9a70b17696f141fd859328 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6758daf82f769e644c6f0a7ff60eef4a = $(`<div id="html_6758daf82f769e644c6f0a7ff60eef4a" style="width: 100.0%; height: 100.0%;">Ruta ALTO OBRAJES</div>`)[0];
+                popup_1b32038dee9a70b17696f141fd859328.setContent(html_6758daf82f769e644c6f0a7ff60eef4a);
+            
+        
+
+        poly_line_78bb7b59ff7edb46c8ac8d19bfa0ac33.bindPopup(popup_1b32038dee9a70b17696f141fd859328)
+        ;
+
+        
+    
+    
+            var marker_bde3e86f2c28df84b496a9fd61d06fe7 = L.marker(
+                [-16.500369635004304, -68.1029984202742],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_9ff07877861cfc553b7088e5c8e17d25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09d0e897d70a82a0777ee73fc767bf53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c586b7a16e3d8ff06d559bc72cc633d = $(`<div id="html_0c586b7a16e3d8ff06d559bc72cc633d" style="width: 100.0%; height: 100.0%;">PAMPAHASI BAJO<br>Predicción: 78.53177<br>Contenedores: 23<br>Camiones: 3</div>`)[0];
+                popup_09d0e897d70a82a0777ee73fc767bf53.setContent(html_0c586b7a16e3d8ff06d559bc72cc633d);
+            
+        
+
+        marker_bde3e86f2c28df84b496a9fd61d06fe7.bindPopup(popup_09d0e897d70a82a0777ee73fc767bf53)
+        ;
+
+        
+    
+    
+                marker_bde3e86f2c28df84b496a9fd61d06fe7.setIcon(icon_9ff07877861cfc553b7088e5c8e17d25);
+            
+    
+            var poly_line_3fa4929c16123af9ec140e04e22f2eb8 = L.polyline(
+                [[-16.535331, -68.07435], [-16.500369635004304, -68.1029984202742], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_ac50d8e0ede636450dcf9f4a1c63e7a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e70b010f97f1f572e4d60c85c5eace05 = $(`<div id="html_e70b010f97f1f572e4d60c85c5eace05" style="width: 100.0%; height: 100.0%;">Ruta PAMPAHASI BAJO</div>`)[0];
+                popup_ac50d8e0ede636450dcf9f4a1c63e7a1.setContent(html_e70b010f97f1f572e4d60c85c5eace05);
+            
+        
+
+        poly_line_3fa4929c16123af9ec140e04e22f2eb8.bindPopup(popup_ac50d8e0ede636450dcf9f4a1c63e7a1)
+        ;
+
+        
+    
+    
+            var marker_81b93bf65f01f32196c4ca5b28ada684 = L.marker(
+                [-16.50092965278252, -68.14890095656946],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_555398ab21e396db2260919a60cd2f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_470a8840679477dbba5cc59ff114ee5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7e0d2b1594d40747b38b9c458bf8992 = $(`<div id="html_c7e0d2b1594d40747b38b9c458bf8992" style="width: 100.0%; height: 100.0%;">OBISPO INDABURU<br>Predicción: 78.488266<br>Contenedores: 10<br>Camiones: 1</div>`)[0];
+                popup_470a8840679477dbba5cc59ff114ee5f.setContent(html_c7e0d2b1594d40747b38b9c458bf8992);
+            
+        
+
+        marker_81b93bf65f01f32196c4ca5b28ada684.bindPopup(popup_470a8840679477dbba5cc59ff114ee5f)
+        ;
+
+        
+    
+    
+                marker_81b93bf65f01f32196c4ca5b28ada684.setIcon(icon_555398ab21e396db2260919a60cd2f3d);
+            
+    
+            var poly_line_162471d6fcf608f0a39ecd295f3aa78f = L.polyline(
+                [[-16.535331, -68.07435], [-16.50092965278252, -68.14890095656946], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_bdf877118679d8f39f73ae234f3a7560 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578f25e164b7f3ca666f5ad7a188b904 = $(`<div id="html_578f25e164b7f3ca666f5ad7a188b904" style="width: 100.0%; height: 100.0%;">Ruta OBISPO INDABURU</div>`)[0];
+                popup_bdf877118679d8f39f73ae234f3a7560.setContent(html_578f25e164b7f3ca666f5ad7a188b904);
+            
+        
+
+        poly_line_162471d6fcf608f0a39ecd295f3aa78f.bindPopup(popup_bdf877118679d8f39f73ae234f3a7560)
+        ;
+
+        
+    
+    
+            var marker_22a45fc8cf4022adf316dba617ad2d8d = L.marker(
+                [-16.519153620848662, -68.12542712071391],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_b961444eef3bd0bba962e6be43cd5e84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1438c59034df0121a43fa8bf19fbf5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6bb643219da25cfecfef49bd909c2b = $(`<div id="html_af6bb643219da25cfecfef49bd909c2b" style="width: 100.0%; height: 100.0%;">JARDIN DE LA REVOLUCION<br>Predicción: 78.32152<br>Contenedores: 4<br>Camiones: 1</div>`)[0];
+                popup_a1438c59034df0121a43fa8bf19fbf5a.setContent(html_af6bb643219da25cfecfef49bd909c2b);
+            
+        
+
+        marker_22a45fc8cf4022adf316dba617ad2d8d.bindPopup(popup_a1438c59034df0121a43fa8bf19fbf5a)
+        ;
+
+        
+    
+    
+                marker_22a45fc8cf4022adf316dba617ad2d8d.setIcon(icon_b961444eef3bd0bba962e6be43cd5e84);
+            
+    
+            var poly_line_e8a06d2d87fcf9d0607417451ac20c37 = L.polyline(
+                [[-16.535331, -68.07435], [-16.519153620848662, -68.12542712071391], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_dfb8487d4481a11d19a45d6152241cd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_015626c890cf6eb6351c1b55f1789563 = $(`<div id="html_015626c890cf6eb6351c1b55f1789563" style="width: 100.0%; height: 100.0%;">Ruta JARDIN DE LA REVOLUCION</div>`)[0];
+                popup_dfb8487d4481a11d19a45d6152241cd4.setContent(html_015626c890cf6eb6351c1b55f1789563);
+            
+        
+
+        poly_line_e8a06d2d87fcf9d0607417451ac20c37.bindPopup(popup_dfb8487d4481a11d19a45d6152241cd4)
+        ;
+
+        
+    
+    
+            var marker_faacae229282a75204cfd7c916d7902d = L.marker(
+                [-16.465206004536235, -68.15077785999195],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_93b272add6d240bbeca8e9ebc46239c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e89b0f581319464bcbfd02a5334cf58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0819a0574bd86c94d6c4163f8f62d05 = $(`<div id="html_f0819a0574bd86c94d6c4163f8f62d05" style="width: 100.0%; height: 100.0%;">ALTO PURA PURA<br>Predicción: 77.80774<br>Contenedores: 5<br>Camiones: 1</div>`)[0];
+                popup_7e89b0f581319464bcbfd02a5334cf58.setContent(html_f0819a0574bd86c94d6c4163f8f62d05);
+            
+        
+
+        marker_faacae229282a75204cfd7c916d7902d.bindPopup(popup_7e89b0f581319464bcbfd02a5334cf58)
+        ;
+
+        
+    
+    
+                marker_faacae229282a75204cfd7c916d7902d.setIcon(icon_93b272add6d240bbeca8e9ebc46239c2);
+            
+    
+            var poly_line_c0885058584ce97fdb58941e13cdb238 = L.polyline(
+                [[-16.535331, -68.07435], [-16.465206004536235, -68.15077785999195], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_1d5890659490b42b5f1c5b16493d2e5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_380af8757549831222f8e4e544868687 = $(`<div id="html_380af8757549831222f8e4e544868687" style="width: 100.0%; height: 100.0%;">Ruta ALTO PURA PURA</div>`)[0];
+                popup_1d5890659490b42b5f1c5b16493d2e5d.setContent(html_380af8757549831222f8e4e544868687);
+            
+        
+
+        poly_line_c0885058584ce97fdb58941e13cdb238.bindPopup(popup_1d5890659490b42b5f1c5b16493d2e5d)
+        ;
+
+        
+    
+    
+            var marker_7940ee00119624f6adcf22a363699d67 = L.marker(
+                [-16.551614876897073, -68.09249126663369],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_06cf28f55b605ffdbf8f1f5ad2e5d239 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_556ed6c48769d15055ba78623a1730af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a94445d0ce02d56c6821e8e1f39e860 = $(`<div id="html_3a94445d0ce02d56c6821e8e1f39e860" style="width: 100.0%; height: 100.0%;">AMOR DE DIOS<br>Predicción: 77.39133<br>Contenedores: 4<br>Camiones: 1</div>`)[0];
+                popup_556ed6c48769d15055ba78623a1730af.setContent(html_3a94445d0ce02d56c6821e8e1f39e860);
+            
+        
+
+        marker_7940ee00119624f6adcf22a363699d67.bindPopup(popup_556ed6c48769d15055ba78623a1730af)
+        ;
+
+        
+    
+    
+                marker_7940ee00119624f6adcf22a363699d67.setIcon(icon_06cf28f55b605ffdbf8f1f5ad2e5d239);
+            
+    
+            var poly_line_63c941f3e72a2bcd38397da89582d782 = L.polyline(
+                [[-16.535331, -68.07435], [-16.551614876897073, -68.09249126663369], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_9e738b0915a6f5b7f950f59832144c89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2947ce25a9c7af872f02ba7ac0eb1e5 = $(`<div id="html_a2947ce25a9c7af872f02ba7ac0eb1e5" style="width: 100.0%; height: 100.0%;">Ruta AMOR DE DIOS</div>`)[0];
+                popup_9e738b0915a6f5b7f950f59832144c89.setContent(html_a2947ce25a9c7af872f02ba7ac0eb1e5);
+            
+        
+
+        poly_line_63c941f3e72a2bcd38397da89582d782.bindPopup(popup_9e738b0915a6f5b7f950f59832144c89)
+        ;
+
+        
+    
+    
+            var marker_8ebc7065ed9864ee46f26d9f18b7b0da = L.marker(
+                [-16.49595974201078, -68.14141030007886],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_533a1237724a0cd16cff12338dfed915 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81b84c2facbcb7990fbb66c01612490d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc74b6759a2e3ad6a27dc69e4704139f = $(`<div id="html_fc74b6759a2e3ad6a27dc69e4704139f" style="width: 100.0%; height: 100.0%;">ROSARIO<br>Predicción: 77.334885<br>Contenedores: 9<br>Camiones: 1</div>`)[0];
+                popup_81b84c2facbcb7990fbb66c01612490d.setContent(html_fc74b6759a2e3ad6a27dc69e4704139f);
+            
+        
+
+        marker_8ebc7065ed9864ee46f26d9f18b7b0da.bindPopup(popup_81b84c2facbcb7990fbb66c01612490d)
+        ;
+
+        
+    
+    
+                marker_8ebc7065ed9864ee46f26d9f18b7b0da.setIcon(icon_533a1237724a0cd16cff12338dfed915);
+            
+    
+            var poly_line_3a284ce175a85777593bc3a0b0661f83 = L.polyline(
+                [[-16.535331, -68.07435], [-16.49595974201078, -68.14141030007886], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_4818f099eb21c2c548cc3b7b5f50a2e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87ba3e778d28d7278816b54145a948d7 = $(`<div id="html_87ba3e778d28d7278816b54145a948d7" style="width: 100.0%; height: 100.0%;">Ruta ROSARIO</div>`)[0];
+                popup_4818f099eb21c2c548cc3b7b5f50a2e0.setContent(html_87ba3e778d28d7278816b54145a948d7);
+            
+        
+
+        poly_line_3a284ce175a85777593bc3a0b0661f83.bindPopup(popup_4818f099eb21c2c548cc3b7b5f50a2e0)
+        ;
+
+        
+    
+    
+            var marker_f447f8d55f32acee9f2b5d03ca908950 = L.marker(
+                [-16.489993858590463, -68.12272296890147],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_c866cffc1a3f3f070a04e5d7b5cd8d4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1938de3bae7682dc7c28ce5ff964acc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79b883b4572b476f09b5522401e1f349 = $(`<div id="html_79b883b4572b476f09b5522401e1f349" style="width: 100.0%; height: 100.0%;">MIRAFLORES<br>Predicción: 76.76978<br>Contenedores: 35<br>Camiones: 4</div>`)[0];
+                popup_1938de3bae7682dc7c28ce5ff964acc9.setContent(html_79b883b4572b476f09b5522401e1f349);
+            
+        
+
+        marker_f447f8d55f32acee9f2b5d03ca908950.bindPopup(popup_1938de3bae7682dc7c28ce5ff964acc9)
+        ;
+
+        
+    
+    
+                marker_f447f8d55f32acee9f2b5d03ca908950.setIcon(icon_c866cffc1a3f3f070a04e5d7b5cd8d4d);
+            
+    
+            var poly_line_b09cd30e5fab7bb37034d071b7b8903f = L.polyline(
+                [[-16.535331, -68.07435], [-16.489993858590463, -68.12272296890147], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_b8129e2aef245e3e33cf84165f54f499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0972c165484f206254e43682415ecd7e = $(`<div id="html_0972c165484f206254e43682415ecd7e" style="width: 100.0%; height: 100.0%;">Ruta MIRAFLORES</div>`)[0];
+                popup_b8129e2aef245e3e33cf84165f54f499.setContent(html_0972c165484f206254e43682415ecd7e);
+            
+        
+
+        poly_line_b09cd30e5fab7bb37034d071b7b8903f.bindPopup(popup_b8129e2aef245e3e33cf84165f54f499)
+        ;
+
+        
+    
+    
+            var marker_cac043f12a95065f7d6ad1e2802c8e29 = L.marker(
+                [-16.48948482451945, -68.0952404530714],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_b6f35206249ecf8435db88a2d6c407c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1b610bf1ff05f5fb56278a82b280c3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55e5a7f2d8ec4c72bda6460d7bdea007 = $(`<div id="html_55e5a7f2d8ec4c72bda6460d7bdea007" style="width: 100.0%; height: 100.0%;">COSMOS<br>Predicción: 76.03105<br>Contenedores: 29<br>Camiones: 3</div>`)[0];
+                popup_b1b610bf1ff05f5fb56278a82b280c3d.setContent(html_55e5a7f2d8ec4c72bda6460d7bdea007);
+            
+        
+
+        marker_cac043f12a95065f7d6ad1e2802c8e29.bindPopup(popup_b1b610bf1ff05f5fb56278a82b280c3d)
+        ;
+
+        
+    
+    
+                marker_cac043f12a95065f7d6ad1e2802c8e29.setIcon(icon_b6f35206249ecf8435db88a2d6c407c3);
+            
+    
+            var poly_line_e5aef35c8ab710a67f821f40fe4a307d = L.polyline(
+                [[-16.535331, -68.07435], [-16.48948482451945, -68.0952404530714], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_cffe6fcaacf34498566b83a78950e64c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a24c124f52e25e3162deb55d1f0524ae = $(`<div id="html_a24c124f52e25e3162deb55d1f0524ae" style="width: 100.0%; height: 100.0%;">Ruta COSMOS</div>`)[0];
+                popup_cffe6fcaacf34498566b83a78950e64c.setContent(html_a24c124f52e25e3162deb55d1f0524ae);
+            
+        
+
+        poly_line_e5aef35c8ab710a67f821f40fe4a307d.bindPopup(popup_cffe6fcaacf34498566b83a78950e64c)
+        ;
+
+        
+    
+    
+            var marker_9aad99982c1e8253ff961da5942d976c = L.marker(
+                [-16.496229737369582, -68.12974162762836],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_e01239b8cc49f0f9875d1d567f257b8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38bae2e9d353a267eeb061b467cbaa68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31d9e093d97b7d05fdba33169c9802cc = $(`<div id="html_31d9e093d97b7d05fdba33169c9802cc" style="width: 100.0%; height: 100.0%;">CASCO URBANO CENTRAL<br>Predicción: 75.60448<br>Contenedores: 2<br>Camiones: 1</div>`)[0];
+                popup_38bae2e9d353a267eeb061b467cbaa68.setContent(html_31d9e093d97b7d05fdba33169c9802cc);
+            
+        
+
+        marker_9aad99982c1e8253ff961da5942d976c.bindPopup(popup_38bae2e9d353a267eeb061b467cbaa68)
+        ;
+
+        
+    
+    
+                marker_9aad99982c1e8253ff961da5942d976c.setIcon(icon_e01239b8cc49f0f9875d1d567f257b8e);
+            
+    
+            var poly_line_00905b7cb1ce17ab1229cb2e3cce53d4 = L.polyline(
+                [[-16.535331, -68.07435], [-16.496229737369582, -68.12974162762836], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "beige", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_ab021eaa4d446e94ce40f532c01b69e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30975908712551d3c2bbc37c5d33d491 = $(`<div id="html_30975908712551d3c2bbc37c5d33d491" style="width: 100.0%; height: 100.0%;">Ruta CASCO URBANO CENTRAL</div>`)[0];
+                popup_ab021eaa4d446e94ce40f532c01b69e6.setContent(html_30975908712551d3c2bbc37c5d33d491);
+            
+        
+
+        poly_line_00905b7cb1ce17ab1229cb2e3cce53d4.bindPopup(popup_ab021eaa4d446e94ce40f532c01b69e6)
+        ;
+
+        
+    
+    
+            var marker_ddf93de6d1e139007695ffa9ef452a25 = L.marker(
+                [-16.504643603752314, -68.14498565928156],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_9b4d42c13872f44c4faf4df2c8105fee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eac9e2d90997f37e78487a2d0d28715 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d528ed82e25ebe5a4dfe4c9faef4d36 = $(`<div id="html_1d528ed82e25ebe5a4dfe4c9faef4d36" style="width: 100.0%; height: 100.0%;">VILLA NUEVO POTOSI<br>Predicción: 74.97247<br>Contenedores: 7<br>Camiones: 1</div>`)[0];
+                popup_8eac9e2d90997f37e78487a2d0d28715.setContent(html_1d528ed82e25ebe5a4dfe4c9faef4d36);
+            
+        
+
+        marker_ddf93de6d1e139007695ffa9ef452a25.bindPopup(popup_8eac9e2d90997f37e78487a2d0d28715)
+        ;
+
+        
+    
+    
+                marker_ddf93de6d1e139007695ffa9ef452a25.setIcon(icon_9b4d42c13872f44c4faf4df2c8105fee);
+            
+    
+            var poly_line_14fedcf88d3e7dafec1aac27e40fb6b4 = L.polyline(
+                [[-16.535331, -68.07435], [-16.504643603752314, -68.14498565928156], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_fee14f76b0de633bb5d1b354a2f4c75d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d66c4668481f8c65fa526dc02553611d = $(`<div id="html_d66c4668481f8c65fa526dc02553611d" style="width: 100.0%; height: 100.0%;">Ruta VILLA NUEVO POTOSI</div>`)[0];
+                popup_fee14f76b0de633bb5d1b354a2f4c75d.setContent(html_d66c4668481f8c65fa526dc02553611d);
+            
+        
+
+        poly_line_14fedcf88d3e7dafec1aac27e40fb6b4.bindPopup(popup_fee14f76b0de633bb5d1b354a2f4c75d)
+        ;
+
+        
+    
+    
+            var marker_a21448ceeecbb6de29bac65432281a4f = L.marker(
+                [-16.510013749378196, -68.14383089677295],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_d329d18bde5b4296f4f0b1cd30048604 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_982ea5681d6d4f3d90477c198e737cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c81f50effaf32ce8484da94ac3ca560a = $(`<div id="html_c81f50effaf32ce8484da94ac3ca560a" style="width: 100.0%; height: 100.0%;">TACAGUA<br>Predicción: 74.9704<br>Contenedores: 4<br>Camiones: 1</div>`)[0];
+                popup_982ea5681d6d4f3d90477c198e737cdb.setContent(html_c81f50effaf32ce8484da94ac3ca560a);
+            
+        
+
+        marker_a21448ceeecbb6de29bac65432281a4f.bindPopup(popup_982ea5681d6d4f3d90477c198e737cdb)
+        ;
+
+        
+    
+    
+                marker_a21448ceeecbb6de29bac65432281a4f.setIcon(icon_d329d18bde5b4296f4f0b1cd30048604);
+            
+    
+            var poly_line_ef3a34d943c4692d1c6a6cd81591368c = L.polyline(
+                [[-16.535331, -68.07435], [-16.510013749378196, -68.14383089677295], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_9711822b6a7ef611287404819bf41523 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da3435af56429daf18607088dd173ce8 = $(`<div id="html_da3435af56429daf18607088dd173ce8" style="width: 100.0%; height: 100.0%;">Ruta TACAGUA</div>`)[0];
+                popup_9711822b6a7ef611287404819bf41523.setContent(html_da3435af56429daf18607088dd173ce8);
+            
+        
+
+        poly_line_ef3a34d943c4692d1c6a6cd81591368c.bindPopup(popup_9711822b6a7ef611287404819bf41523)
+        ;
+
+        
+    
+    
+            var marker_b54a2db0d1eb43f9d2710e6c4cafb7ed = L.marker(
+                [-16.542537493391205, -68.0875753650476],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_aabe4e747e1753b9fe4c1d9b529e1913 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4d2444f2290d09865c1998b95f77c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e4a86e5bbda9ecb957d3d9867d13703 = $(`<div id="html_9e4a86e5bbda9ecb957d3d9867d13703" style="width: 100.0%; height: 100.0%;">CALACOTO<br>Predicción: 74.558586<br>Contenedores: 18<br>Camiones: 2</div>`)[0];
+                popup_a4d2444f2290d09865c1998b95f77c5a.setContent(html_9e4a86e5bbda9ecb957d3d9867d13703);
+            
+        
+
+        marker_b54a2db0d1eb43f9d2710e6c4cafb7ed.bindPopup(popup_a4d2444f2290d09865c1998b95f77c5a)
+        ;
+
+        
+    
+    
+                marker_b54a2db0d1eb43f9d2710e6c4cafb7ed.setIcon(icon_aabe4e747e1753b9fe4c1d9b529e1913);
+            
+    
+            var poly_line_d36c430a1f31cd790317d92fb4a99d49 = L.polyline(
+                [[-16.535331, -68.07435], [-16.542537493391205, -68.0875753650476], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_ed4e2692142942214e47a12f788144a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86ee0a01f2cdc56e2ece936c77afe981 = $(`<div id="html_86ee0a01f2cdc56e2ece936c77afe981" style="width: 100.0%; height: 100.0%;">Ruta CALACOTO</div>`)[0];
+                popup_ed4e2692142942214e47a12f788144a4.setContent(html_86ee0a01f2cdc56e2ece936c77afe981);
+            
+        
+
+        poly_line_d36c430a1f31cd790317d92fb4a99d49.bindPopup(popup_ed4e2692142942214e47a12f788144a4)
+        ;
+
+        
+    
+    
+            var marker_287d892994fc5976afc5e0f9cf3c38c6 = L.marker(
+                [-16.503206031124403, -68.1258869404324],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_3ced57c6d774ff641388fed931131a84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de2ab3b2b883b6a22d7da68a86506a4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcb006841e2698450fe27d285a813be0 = $(`<div id="html_bcb006841e2698450fe27d285a813be0" style="width: 100.0%; height: 100.0%;">PARQUE URBANO CENTRA<br>Predicción: 74.29616<br>Contenedores: 12<br>Camiones: 2</div>`)[0];
+                popup_de2ab3b2b883b6a22d7da68a86506a4e.setContent(html_bcb006841e2698450fe27d285a813be0);
+            
+        
+
+        marker_287d892994fc5976afc5e0f9cf3c38c6.bindPopup(popup_de2ab3b2b883b6a22d7da68a86506a4e)
+        ;
+
+        
+    
+    
+                marker_287d892994fc5976afc5e0f9cf3c38c6.setIcon(icon_3ced57c6d774ff641388fed931131a84);
+            
+    
+            var poly_line_dbe8df3506c40608f6f86f1d51eba697 = L.polyline(
+                [[-16.535331, -68.07435], [-16.503206031124403, -68.1258869404324], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_f6634e15c54c01c22f726023a4fc19e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82441549301ba81ec86b0d04a14b5951 = $(`<div id="html_82441549301ba81ec86b0d04a14b5951" style="width: 100.0%; height: 100.0%;">Ruta PARQUE URBANO CENTRA</div>`)[0];
+                popup_f6634e15c54c01c22f726023a4fc19e4.setContent(html_82441549301ba81ec86b0d04a14b5951);
+            
+        
+
+        poly_line_dbe8df3506c40608f6f86f1d51eba697.bindPopup(popup_f6634e15c54c01c22f726023a4fc19e4)
+        ;
+
+        
+    
+    
+            var marker_e841c395703c3b427f9fedbf6454ffe8 = L.marker(
+                [-16.535782362959747, -68.08683515646578],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_05599a917763f1c04da5e2df4af388aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e87f839dbd831b8c3dc8529b4584625 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c058e8632396b2d3eeb3cc959f009da = $(`<div id="html_8c058e8632396b2d3eeb3cc959f009da" style="width: 100.0%; height: 100.0%;">COLMIL<br>Predicción: 72.56892<br>Contenedores: 3<br>Camiones: 1</div>`)[0];
+                popup_0e87f839dbd831b8c3dc8529b4584625.setContent(html_8c058e8632396b2d3eeb3cc959f009da);
+            
+        
+
+        marker_e841c395703c3b427f9fedbf6454ffe8.bindPopup(popup_0e87f839dbd831b8c3dc8529b4584625)
+        ;
+
+        
+    
+    
+                marker_e841c395703c3b427f9fedbf6454ffe8.setIcon(icon_05599a917763f1c04da5e2df4af388aa);
+            
+    
+            var poly_line_b914fd6d2630eba79907fce5bebe57ab = L.polyline(
+                [[-16.535331, -68.07435], [-16.535782362959747, -68.08683515646578], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_4be8a31280ed40e799e287059e326168 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21eb10b65c41aa6ce9c8990545109794 = $(`<div id="html_21eb10b65c41aa6ce9c8990545109794" style="width: 100.0%; height: 100.0%;">Ruta COLMIL</div>`)[0];
+                popup_4be8a31280ed40e799e287059e326168.setContent(html_21eb10b65c41aa6ce9c8990545109794);
+            
+        
+
+        poly_line_b914fd6d2630eba79907fce5bebe57ab.bindPopup(popup_4be8a31280ed40e799e287059e326168)
+        ;
+
+        
+    
+    
+            var marker_0ef73e82d6c9e3367c1c6ef301f1c4d1 = L.marker(
+                [-16.458418166834278, -68.15045258495485],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_915795d3047b7d5be5b00109dec0936a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87cb9547e88231b27822a4646c943124 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31071d6cd280fe44840213bb7f5dfe9a = $(`<div id="html_31071d6cd280fe44840213bb7f5dfe9a" style="width: 100.0%; height: 100.0%;">CIUDADELA FERROVIARIA<br>Predicción: 72.204506<br>Contenedores: 9<br>Camiones: 1</div>`)[0];
+                popup_87cb9547e88231b27822a4646c943124.setContent(html_31071d6cd280fe44840213bb7f5dfe9a);
+            
+        
+
+        marker_0ef73e82d6c9e3367c1c6ef301f1c4d1.bindPopup(popup_87cb9547e88231b27822a4646c943124)
+        ;
+
+        
+    
+    
+                marker_0ef73e82d6c9e3367c1c6ef301f1c4d1.setIcon(icon_915795d3047b7d5be5b00109dec0936a);
+            
+    
+            var poly_line_ed74826ead6198f06dde3981b3d9e7b1 = L.polyline(
+                [[-16.535331, -68.07435], [-16.458418166834278, -68.15045258495485], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_e60614fa73eff86e033b48224485cb32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62efd4bbad05818a5c9316ec21539301 = $(`<div id="html_62efd4bbad05818a5c9316ec21539301" style="width: 100.0%; height: 100.0%;">Ruta CIUDADELA FERROVIARIA</div>`)[0];
+                popup_e60614fa73eff86e033b48224485cb32.setContent(html_62efd4bbad05818a5c9316ec21539301);
+            
+        
+
+        poly_line_ed74826ead6198f06dde3981b3d9e7b1.bindPopup(popup_e60614fa73eff86e033b48224485cb32)
+        ;
+
+        
+    
+    
+            var marker_8144ebdb271307d0fb4e8267d28d64f9 = L.marker(
+                [-16.488781556224883, -68.158208199846],
+                {
+}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+            var icon_8114da3aa3fa2a2c4764310910fac69b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2914fb538a0d2063dea6692f4773e745 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5b5896a51fe0445377567aeea03af4 = $(`<div id="html_5c5b5896a51fe0445377567aeea03af4" style="width: 100.0%; height: 100.0%;">MUNAYPATA<br>Predicción: 70.42848<br>Contenedores: 19<br>Camiones: 2</div>`)[0];
+                popup_2914fb538a0d2063dea6692f4773e745.setContent(html_5c5b5896a51fe0445377567aeea03af4);
+            
+        
+
+        marker_8144ebdb271307d0fb4e8267d28d64f9.bindPopup(popup_2914fb538a0d2063dea6692f4773e745)
+        ;
+
+        
+    
+    
+                marker_8144ebdb271307d0fb4e8267d28d64f9.setIcon(icon_8114da3aa3fa2a2c4764310910fac69b);
+            
+    
+            var poly_line_7193d9fe051a47e09a8fc8657c954c7b = L.polyline(
+                [[-16.535331, -68.07435], [-16.488781556224883, -68.158208199846], [-16.555393, -68.131637], [-16.535331, -68.07435]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6b317f88571b8dd17493917ef8dd323b);
+        
+    
+        var popup_c9064e5db2ff081570d893920cc53682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e6b6f66384495e4f9ce617293378b24 = $(`<div id="html_7e6b6f66384495e4f9ce617293378b24" style="width: 100.0%; height: 100.0%;">Ruta MUNAYPATA</div>`)[0];
+                popup_c9064e5db2ff081570d893920cc53682.setContent(html_7e6b6f66384495e4f9ce617293378b24);
+            
+        
+
+        poly_line_7193d9fe051a47e09a8fc8657c954c7b.bindPopup(popup_c9064e5db2ff081570d893920cc53682)
+        ;
+
+        
+    
+</script>
+</html>
