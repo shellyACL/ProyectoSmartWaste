@@ -1,6 +1,0 @@
-Código 	Zona
-1	Centro
-2	Sopocachi
-3	Villa Fátima
-4	Achumani
-5	Obrajes
